@@ -13,6 +13,7 @@
     ],
     "require": {
         "php": ">=5.6",
+        "craue/formflow-bundle": "dev-master",
         "digitalstate/platform-data-bundle" : "dev-master"
     },
     "autoload": {
