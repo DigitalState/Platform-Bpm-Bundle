@@ -14,6 +14,7 @@
     "require": {
         "php": ">=5.6",
         "craue/formflow-bundle": "dev-master",
+        "oro/platform": "1.10.*",
         "digitalstate/platform-data-bundle" : "dev-master"
     },
     "autoload": {
