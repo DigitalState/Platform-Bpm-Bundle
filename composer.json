@@ -18,7 +18,7 @@
         "digitalstate/platform-data-bundle" : "dev-master"
     },
     "autoload": {
-        "psr-0": { "Ds\\Bundle\\BpmBundle": "" }
+        "psr-4": { "Ds\\Bundle\\BpmBundle\\": "" }
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
