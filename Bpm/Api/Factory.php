@@ -47,14 +47,19 @@ class Factory
         $api->setHost($this->configuration->get('ds_bpm_' . $alias . '.host'));
 
         $variables = [
-            'none_start_event_form_data' => $this->configuration->get('ds_bpm.variable_none_start_event_form_data'),
+            'user' => $this->configuration->get('ds_bpm.variable_user'),
             'user_id' => $this->configuration->get('ds_bpm.variable_user_id'),
             'user_business_unit_id' => $this->configuration->get('ds_bpm.variable_user_business_unit_id'),
             'user_organization_id' => $this->configuration->get('ds_bpm.variable_user_organization_id'),
+            'service' => $this->configuration->get('ds_bpm.variable_service'),
             'service_id' => $this->configuration->get('ds_bpm.variable_service_id'),
             'service_business_unit_id' => $this->configuration->get('ds_bpm.variable_service_business_unit_id'),
             'service_organization_id' => $this->configuration->get('ds_bpm.variable_service_organization_id'),
-            'user_task_form_data' => $this->configuration->get('ds_bpm.variable_user_task_form_data')
+            'none_start_event_form_data' => $this->configuration->get('ds_bpm.variable_none_start_event_form_data'),
+            'none_start_event_form_validation' => $this->configuration->get('ds_bpm.variable_none_start_event_form_validation'),
+            'none_start_event_form_validation_valid' => $this->configuration->get('ds_bpm.variable_none_start_event_form_validation_valid'),
+            'none_start_event_form_validation_message' => $this->configuration->get('ds_bpm.variable_none_start_event_form_validation_message'),
+            'user_task_form_data' => $this->configuration->get('ds_bpm.variable_user_task_form_data'),
         ];
         $api->setVariables($variables);
 
