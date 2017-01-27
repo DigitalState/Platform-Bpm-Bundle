@@ -10,19 +10,19 @@ interface Api
     /**
      * Get start form key.
      *
-     * @param string $processDefinitionId
+     * @param string $definitionId
      * @return string
      */
-    public function getStartFormKey($processDefinitionId);
+    public function getStartFormKey($definitionId);
 
     /**
      * Start an instance.
      *
-     * @param string $processDefinitionId
+     * @param string $definitionId
      * @param array $variables
      * @return object
      */
-    public function startInstance($processDefinitionId, array $variables = []);
+    public function startInstance($definitionId, array $variables = []);
 
     /**
      * Get tasks.
