@@ -4,3 +4,5 @@ This changelog references the relevant changes (new features, changes and bugs) 
 
   * Refactored bpm variable configurations into object and keys.
   * Added convenient attributes for various classes.
+  * Created basic bpm events.
+  
