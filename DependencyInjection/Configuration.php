@@ -20,33 +20,53 @@ class Configuration implements ConfigurationInterface
         $rootNode = $treeBuilder->root('ds_bpm');
 
         SettingsBuilder::append($rootNode, [
+            'variable_user' => [
+                'type' => 'string',
+                'value' => '_user'
+            ],
             'variable_user_id' => [
                 'type' => 'string',
-                'value' => '_user_id'
+                'value' => 'id'
             ],
             'variable_user_business_unit_id' => [
                 'type' => 'string',
-                'value' => '_user_business_unit_id'
+                'value' => 'business_unit_id'
             ],
             'variable_user_organization_id' => [
                 'type' => 'string',
-                'value' => '_user_organization_id'
+                'value' => 'organization_id'
+            ],
+            'variable_service' => [
+                'type' => 'string',
+                'value' => '_service'
             ],
             'variable_service_id' => [
                 'type' => 'string',
-                'value' => '_service_id'
+                'value' => 'id'
             ],
             'variable_service_business_unit_id' => [
                 'type' => 'string',
-                'value' => '_service_business_unit_id'
+                'value' => 'business_unit_id'
             ],
             'variable_service_organization_id' => [
                 'type' => 'string',
-                'value' => '_service_organization_id'
+                'value' => 'organization_id'
             ],
             'variable_none_start_event_form_data' => [
                 'type' => 'string',
                 'value' => '_start_form_data'
+            ],
+            'variable_none_start_event_form_validation' => [
+                'type' => 'string',
+                'value' => '_start_form_validation'
+            ],
+            'variable_none_start_event_form_validation_valid' => [
+                'type' => 'string',
+                'value' => 'valid'
+            ],
+            'variable_none_start_event_form_validation_message' => [
+                'type' => 'string',
+                'value' => 'message'
             ],
             'variable_user_task_form_data' => [
                 'type' => 'string',

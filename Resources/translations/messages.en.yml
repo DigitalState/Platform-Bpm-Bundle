@@ -4,33 +4,43 @@ ds:
             groups:
                 bpm:
                     title: Bpm
-                bpm_process:
-                    title: Process Settings
-                bpm_process_variable_general:
-                    title: General Variables
-                bpm_process_variable_none_start_event:
-                    title: None Start Event Variables
-                bpm_process_variable_user_task:
-                    title: User Task Variables
+                bpm_variable:
+                    title: Variable Settings
+                bpm_variable_user:
+                    title: User Variable
+                bpm_variable_service:
+                    title: Service Variable
+                bpm_variable_none_start_event:
+                    title: Start Event Variable
+                bpm_variable_user_task:
+                    title: User Task Variable
             fields:
+                variable_user:
+                    label: User Object
                 variable_user_id:
-                    label: User ID
+                    label: ID Key
                 variable_user_business_unit_id:
-                    label: User Business Unit ID
+                    label: Business Unit ID Key
                 variable_user_organization_id:
-                    label: User Organization ID
+                    label: Organization ID Key
+                variable_service:
+                    label: Service Object
                 variable_service_id:
-                    label: Service ID
+                    label: ID Key
                 variable_service_business_unit_id:
-                    label: Service Business Unit ID
+                    label: Business Unit ID Key
                 variable_service_organization_id:
-                    label: Service Organization ID
+                    label: Organization ID Key
                 variable_none_start_event_form_data:
-                    label: Form Variables
-                variable_none_start_event_form_data:
-                    label: Form Data
+                    label: Form Data Object
+                variable_none_start_event_form_validation:
+                    label: Form Validation Object
+                variable_none_start_event_form_validation_valid:
+                    label: Valid Key
+                variable_none_start_event_form_validation_message:
+                    label: Message Key
                 variable_user_task_form_data:
-                    label: Form Data
+                    label: Form Data Object
         menu:
             tab:
                 label: Bpm
