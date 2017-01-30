@@ -6,4 +6,4 @@ This changelog references the relevant changes (new features, changes and bugs) 
   * Added convenient attributes for various classes.
   * Created basic bpm events.
   * Updated abstract bpm api to dispatch events.
-  
+  * Added bpm localization variables.

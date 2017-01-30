@@ -10,6 +10,8 @@ ds:
                     title: User Variable
                 bpm_variable_service:
                     title: Service Variable
+                bpm_variable_localization:
+                    title: Localization Variable
                 bpm_variable_none_start_event:
                     title: Start Event Variable
                 bpm_variable_user_task:
@@ -31,6 +33,14 @@ ds:
                     label: Business Unit ID Key
                 variable_service_organization_id:
                     label: Organization ID Key
+                variable_localization:
+                    label: Localization Object
+                variable_localization_id:
+                     label: ID Key
+                variable_localization_language_code:
+                     label: Language Code Key
+                variable_localization_formatting_code:
+                     label: Formatting Code Key
                 variable_none_start_event_form_data:
                     label: Form Data Object
                 variable_none_start_event_form_validation:

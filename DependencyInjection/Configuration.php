@@ -52,6 +52,22 @@ class Configuration implements ConfigurationInterface
                 'type' => 'string',
                 'value' => 'organization_id'
             ],
+            'variable_localization' => [
+                'type' => 'string',
+                'value' => '_localization'
+            ],
+            'variable_localization_id' => [
+                'type' => 'string',
+                'value' => 'id'
+            ],
+            'variable_localization_language_code' => [
+                'type' => 'string',
+                'value' => 'language_code'
+            ],
+            'variable_localization_formatting_code' => [
+                'type' => 'string',
+                'value' => 'formatting_code'
+            ],
             'variable_none_start_event_form_data' => [
                 'type' => 'string',
                 'value' => '_start_form_data'
