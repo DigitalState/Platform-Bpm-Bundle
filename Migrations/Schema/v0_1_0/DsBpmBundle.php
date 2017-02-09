@@ -1,6 +1,6 @@
 <?php
 
-namespace Ds\Bundle\BpmBundle\Migrations\Schema\v1_0;
+namespace Ds\Bundle\BpmBundle\Migrations\Schema\v0_1_0;
 
 use Oro\Bundle\MigrationBundle\Migration\Migration;
 use Doctrine\DBAL\Schema\Schema;
@@ -20,6 +20,16 @@ class DsBpmBundle implements Migration
      * @param \Oro\Bundle\MigrationBundle\Migration\QueryBag $queries
      */
     public function up(Schema $schema, QueryBag $queries)
+    {
+        $this->createUserBpmIdColumn($schema);
+    }
+
+    /**
+     * Create user bpm id column
+     *
+     * @param \Doctrine\DBAL\Schema\Schema $schema
+     */
+    protected function createUserBpmIdColumn(Schema $schema)
     {
         $table = $schema->getTable('oro_user');
         $table->addColumn(
