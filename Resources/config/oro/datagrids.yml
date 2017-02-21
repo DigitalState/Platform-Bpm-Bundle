@@ -1,4 +1,4 @@
-datagrid:
+datagrids:
     ds-bpm-task:
         source:
             type: repository

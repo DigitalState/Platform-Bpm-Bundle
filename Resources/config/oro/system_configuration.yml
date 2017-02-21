@@ -1,4 +1,4 @@
-oro_system_configuration:
+system_configuration:
     groups:
         ds_bpm:
             title: ds.bpm.system_configuration.groups.bpm.title
